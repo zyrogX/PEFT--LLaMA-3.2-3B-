@@ -1,0 +1,23 @@
+# Core fine-tuning and model libraries
+unsloth[kaggle-ipex] # Or just 'unsloth' if a specific variant isn't strictly needed outside Kaggle
+torch
+transformers
+peft
+trl
+accelerate
+bitsandbytes
+
+# Data handling
+datasets
+
+# Evaluation
+evaluate
+rouge_score
+
+# Experiment tracking
+wandb
+
+# Utility (often comes as dependencies but good to list if explicitly used)
+numpy
+pandas
+tqdm # For progress bars, often a dependency
